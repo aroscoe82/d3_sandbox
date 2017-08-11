@@ -1,0 +1,15 @@
+{
+  "name": "d3_sandbox",
+  "version": "1.0.0",
+  "description": "sandbox testing for d3 with angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d3",
+    "angularjs"
+  ],
+  "author": "Amanda Roscoe",
+  "license": "MIT"
+}

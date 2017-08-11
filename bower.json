@@ -1,0 +1,27 @@
+{
+  "name": "d3_sandbox",
+  "description": "sandbox testing for d3 with angularjs",
+  "main": "index.js",
+  "authors": [
+    "Amanda Roscoe"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "d3",
+    "angularjs"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#1.4",
+    "d3": "^4.10.0"
+  }
+}

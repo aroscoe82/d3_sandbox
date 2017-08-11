@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>D3Charts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-app="charts" ng-controller="chartsCtrl">
+  <div d3-bars data="d3Data" label="d3Label" on-click="d3OnClick(item)"></div>
+  <div d3-arc data="d3ArcData"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+  <script src="app/charts/d3.js"></script>
+
+  <script src="app/charts/charts.ctrl.js"></script>
+  <script src="app/charts/charts.drtv.js"></script>
+</body>
+</html>
